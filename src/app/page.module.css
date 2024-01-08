@@ -1,0 +1,154 @@
+@media (max-width: 1366px) {
+  .cmpad {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+
+@media (min-width: 1366px) {
+  .cmpad {
+    max-width: 1526.4px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 54px;
+    padding-right: 54px;
+  }
+}
+
+@media (max-width: 991px) {
+  .cmpad {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .cmpad {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+
+
+
+
+
+.pad {
+  padding-top: 8rem;
+  padding-bottom: 2rem;
+}
+
+.pad h1 {
+  color: white;
+  text-align: center;
+  font-weight: 200;
+  padding-bottom: 30px;
+}
+
+.banner {
+  width: 100%;
+  height: auto;
+  padding-bottom: 40px;
+}
+
+.bttn {
+  background-color: white;
+  padding: 10px 60px;
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: .9rem;
+  transition: .3s;
+  border: 1px solid transparent;
+}
+
+.bttn:hover {
+  border: 1px solid white;
+  color: white;
+  background-color: transparent;
+}
+
+.bttntra {
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 10px 60px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: .9rem;
+  transition: .3s;
+}
+
+.bttntra:hover {
+  background-color: white;
+  color: black;
+}
+
+.mauto {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.secimg {
+  width: 100%;
+  height: auto;
+  padding-bottom: 2rem;
+}
+
+.para {
+  text-align: center;
+  color: hsla(0, 0%, 100%, 1);
+  font-weight: 300;
+  padding-bottom: 2rem;
+}
+
+.section {
+  padding: 6rem 0;
+}
+
+.counter {
+  font-size: 4rem;
+  color: white;
+  text-align: center;
+  font-weight: 200;
+}
+
+.gbtn {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.gbtn a {
+  width: 300px;
+  text-align: center;
+}
+
+.link {
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.cross{
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  font-size: 2rem;
+  color: white;
+  text-decoration: none;
+}
+
+
+@media(max-width: 767px){
+  .gbtn {
+    display: grid;
+  }
+}
